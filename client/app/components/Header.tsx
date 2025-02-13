@@ -73,7 +73,7 @@ export default function Header() {
               {categories.map((category, index) => (
                 <div key={index} className="relative group/sub">
                   <Link href={`/category/${category.name}`}
-                    className="block px-4 py-2 hover:bg-gray-100 text-white">
+                    className="block px-4 py-2 hover:bg-[#3a1a43] text-white">
                     {category.name}
                     {category.subcategories && <span className="float-right">›</span>}
                   </Link>
